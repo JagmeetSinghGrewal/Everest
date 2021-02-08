@@ -1,0 +1,14 @@
+{
+  "name": "everest",
+  "version": "1.0.0",
+  "description": "Everest is a bot that creates, manages and provides notifcations for events in discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jagmeet Grewal",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.0"
+  }
+}
