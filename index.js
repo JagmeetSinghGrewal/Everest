@@ -13,6 +13,7 @@ for(const file of commandFiles){
 
 bot.on('ready', ()=>{
     console.log("Bot is ready");
+    
 });
 
 bot.on('message', msg => {
@@ -21,7 +22,7 @@ bot.on('message', msg => {
     //console.info(`Called command: ${command}`);
   
     if (!bot.commands.has(command)) return;
-  
+
     try {
       bot.commands.get(command).execute(msg, args);
     } catch (error) {
